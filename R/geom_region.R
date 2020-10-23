@@ -35,9 +35,10 @@ geom_region <- function(mapping = NULL, data = NULL,
                 ...
             )),
 
-        theme(axis.title.x=element_blank(),
-                  axis.text.x=element_blank(), axis.title.y=element_blank(),
-                  axis.text.y=element_blank(),panel.grid=element_blank())
+               NULL
+        # theme(axis.title.x=element_blank(),
+        #           axis.text.x=element_blank(), axis.title.y=element_blank(),
+        #           axis.text.y=element_blank(),panel.grid=element_blank())
     )
     if(coord){
         rval<-c(rval,
@@ -129,10 +130,10 @@ geom_regiontri <- function(mapping = NULL, data = NULL,
                 na.rm = na.rm,
                 ...
             )),
-
-        theme(axis.title.x=element_blank(),
-                  axis.text.x=element_blank(), axis.title.y=element_blank(),
-                  axis.text.y=element_blank(),panel.grid=element_blank())
+               NULL
+        # theme(axis.title.x=element_blank(),
+        #           axis.text.x=element_blank(), axis.title.y=element_blank(),
+        #           axis.text.y=element_blank(),panel.grid=element_blank())
     )
     if(coord){
         rval<-c(rval,
